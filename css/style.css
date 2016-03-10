@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    /*color: #f7f7f7;*/
+    /*letter-spacing: -0.5px;*/
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('../images/banner_new.jpg');
+    background-size: cover; background-position: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-icon {
+    height: 130%;
+}
+
+.hero_title {
+    width: 60%; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.email_signup {
+    padding: 2%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(47, 47, 47, 0.8);
+}
