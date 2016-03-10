@@ -30,8 +30,6 @@ h1 {
 
 .hero {
     height: 100vh;
-    background-image: url('../images/banner_new.jpg');
-    background-size: cover; background-position: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

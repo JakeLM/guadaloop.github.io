@@ -16,7 +16,7 @@
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(images/banner_new.png) no-repeat;
+    background: rgb(0,0,0) no-repeat;
     background-size: cover;
 }
 
