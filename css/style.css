@@ -10,6 +10,24 @@ h1 {
     font-size: 50px;
 }
 
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    font-size: 18px;
+}
+
+.navbar-icon {
+    height: 130%;
+}
+
+.navbar-icon {
+    height: 130%;
+}
+
 .hero {
     height: 100vh;
     background-image: url('../images/banner_new.jpg');
@@ -19,10 +37,6 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.navbar-icon {
-    height: 130%;
 }
 
 .hero_title {
@@ -44,5 +58,5 @@ h1 {
 
 .email_signup form {
     margin: 0 auto;
-    width: 600px;
+    width: 50%;
 }
