@@ -37,8 +37,12 @@ h1 {
 
 .email_signup {
     padding: 2%;
-    position: absolute;
-    bottom: 0;
+    /*position: absolute;*/
+    /*bottom: 0;*/
     width: 100%;
-    background: rgba(47, 47, 47, 0.8);
+}
+
+.email_signup form {
+    margin: 0 auto;
+    width: 600px;
 }
