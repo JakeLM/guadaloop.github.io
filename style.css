@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+
+* {
+    font-family: 'Raleway', sans-serif;
+    /*color: #f7f7f7;*/
+    /*letter-spacing: -0.5px;*/
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.navbar-default {
+    background-color: rgba(0,0,0,.75);
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar-brand .navbar-icon {
+    height: 130%;
+    transform: scale(.85,.85);
+}
+
+.navbar-brand {
+  color: #fff;
+  opacity: .8;
+}
+
+.navbar-brand:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.navbar-brand .txt {
+  color: #fff;
+}
+
+.nav .txt {
+  color: #fff;
+  opacity: .8;
+}
+
+.nav .txt:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_title {
+    width: 60%; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 0px #1a1a1a;
+}
+.hero_title h1 {
+    font-size: 64px;
+}
+
+.email_signup {
+    padding: 2%;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    width: 100%;
+    margin: auto;
+}
+
+.email_signup form {
+    margin: 0 auto;
+    width: 40%;
+    padding: 15px;
+}
+
+.email_signup .form-control {
+    padding: 15px;
+    height: 65px;
+    width: 600px;
+    font-size: 24px;
+    border: 0 none;
+}
+
+.email_signup .submit {
+    height: 65px;
+    padding: 5px 10px 5px 10px;
+    font-size: 22px;
+    background-color: rgba(0,0,0,0);
+    border: 0 none;
+    color: #fff;
+    text-shadow: 1px 1px 1px #444;
+    transition: background-color .15s, color .15s, border-color .15s, text-shadow .15s;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.email_signup .submit:hover {
+  background-color: #fff;
+  color: #ffad00;
+  border-color: #;
+  text-shadow: none;
+}
